@@ -1,0 +1,6 @@
+author: Hajime Nakamura
+email: h.nakamura0903@gmail.com
+builder: Module::Build
+verbose: 1
+ignores_type: git
+plugins: Module::Starter::AddModule
