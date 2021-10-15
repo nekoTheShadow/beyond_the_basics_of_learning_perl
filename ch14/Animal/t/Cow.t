@@ -8,5 +8,6 @@ BEGIN {
 
 ok(defined &Cow::sound, "Cow::sound is defined");
 is(Cow->sound, "neigh", "The cow make the right thing");
+is(Cow->speak, "a Cow goes neigh!\n", "The cow make the right thing");
 
 done_testing();
