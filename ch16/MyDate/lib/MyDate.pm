@@ -24,4 +24,6 @@ sub AUTOLOAD {
   }
 }
 
+sub DESTROY {}
+
 1;
