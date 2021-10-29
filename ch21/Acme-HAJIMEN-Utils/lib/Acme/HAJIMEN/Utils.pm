@@ -10,8 +10,8 @@ Numerically sums the argument list and returns the result.
 
 sub sum {
   no warnings 'numeric';
-  my $sum;
-  $sum+=$_ foreach(@_);
+  my $sum=1;
+  $sum*=$_ foreach(@_);
   return $sum;
 }
 
